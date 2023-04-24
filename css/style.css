@@ -1,0 +1,49 @@
+.a {
+  color: #922b0f;
+}
+
+.bg-2 {
+  background-color: rgb(218, 255, 218);
+}
+
+.img1 {
+  width: 40px;
+  height: 40px;
+}
+
+.d-block {
+  height: 300px;
+}
+
+.img2 img {
+  width: 100px;
+  height: 99px;
+}
+
+.img3 {
+  width: 100px;
+  height: 40px;
+}
+
+.img4 {
+  width: 150px;
+  height: 220px;
+}
+
+.p {
+  padding-top: 20px;
+}
+
+.p1 {
+  padding-bottom: 20px;
+}
+
+.m {
+  margin-right: 30px;
+}
+
+.gradiente {
+  background-image: linear-gradient(to right, #afce4d, #eaffa5);
+}
+
+/*# sourceMappingURL=style.css.map */
