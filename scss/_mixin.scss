@@ -1,0 +1,9 @@
+@mixin tamano($ancho,$alto){
+    width: repeat($ancho);
+    height: repeat($alto);
+}
+
+.img2 img{@include tamano(100px,99px )};
+.img3{@include tamano(100px,40px ) };
+.img4{@include tamano(150px,220px )};
+.img1{ @include tamano(40px,40px )}
