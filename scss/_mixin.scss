@@ -1,6 +1,6 @@
 @mixin tamano($ancho,$alto){
-    width: repeat($ancho);
-    height: repeat($alto);
+    width: $ancho;
+    height: $alto;
 }
 
 .img2 img{@include tamano(100px,99px )};

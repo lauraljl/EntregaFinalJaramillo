@@ -27,23 +27,23 @@
 }
 
 .img2 img {
-  width: repeat(100px);
-  height: repeat(99px);
+  width: 100px;
+  height: 99px;
 }
 
 .img3 {
-  width: repeat(100px);
-  height: repeat(40px);
+  width: 100px;
+  height: 40px;
 }
 
 .img4 {
-  width: repeat(150px);
-  height: repeat(220px);
+  width: 150px;
+  height: 220px;
 }
 
 .img1 {
-  width: repeat(40px);
-  height: repeat(40px);
+  width: 40px;
+  height: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
