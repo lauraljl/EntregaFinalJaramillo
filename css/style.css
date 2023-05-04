@@ -3,7 +3,11 @@
 }
 
 .bg-2 {
-  background-color: rgb(218, 255, 218);
+  background-color: rgb(238, 255, 238);
+}
+
+.bg-3 {
+  background-color: #bcc8ff;
 }
 
 .d-block {
@@ -18,8 +22,20 @@
   padding-bottom: 20px;
 }
 
+.p2 {
+  padding-right: 10px;
+}
+
 .m {
   margin-right: 30px;
+}
+
+.m1 {
+  margin-left: 0px;
+}
+
+.ma {
+  margin-top: 20px;
 }
 
 .gradiente {
@@ -27,8 +43,8 @@
 }
 
 .img2 img {
-  width: 100px;
-  height: 99px;
+  width: 70px;
+  height: 70px;
 }
 
 .img3 {
@@ -44,6 +60,11 @@
 .img1 {
   width: 40px;
   height: 40px;
+}
+
+.img5 {
+  width: 90px;
+  height: 90px;
 }
 
 /*# sourceMappingURL=style.css.map */
