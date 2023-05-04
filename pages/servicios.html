@@ -51,17 +51,91 @@
                               Servicios
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#"><img src="../img/veterinaria-min.png" alt=""></a></li>
-                              <h4 class="a">Agenda tu veterinario en casa</h4>
+                            
                               <li><hr class="dropdown-divider"></li>
                               <li><a class="dropdown-item a" href="../pages/servicios.html">ver todos los Servicios</a></li>
                             </ul>
                           </li>
                          
                           </li>
+                          <li>
+                            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                              <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5 align-center" id="exampleModalToggleLabel">¡Bienvenido de nuevo!</h1>
+                                    <button type="button" class="btn-close boton-rojo" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <form>
+                                      <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Correo</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passwordHelp">
+                                        <div id="passwordHelp" class="form-text a">¿Olvidaste tu contraseña?</div>
+                                      </div>
+                                      <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Recordarmelo siempre</label>
+                                      </div>
+                                      <button type="submit" class="btn btn-primary boton-verde button">Iniciar sesión</button>
+                                    </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button class="btn btn-primary boton-verde button" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">¿Cliente nuevo? Regístrate aquí</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                              <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Regístrate</h1>
+                                    <button type="button" class="btn-close boton-rojo" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <form>
+                                      <div class="mb-3">
+                                        <label for="exampleInputName" class="form-label">Nombre Completo</label>
+                                        <input type="name" class="form-control" id="exampleInputName1" >
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Correo</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                            
+                                      </div>
+                                      <h6 class="a">¿Tienes mascotas?</h6>
+                                      <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Perro</label>
+                                      </div>
+                                      <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                        <label class="form-check-label" for="exampleCheck2">Gato</label>
+                                      </div>
+                                      <button type="submit" class="btn btn-primary boton-verde button">Crear cuenta</button>
+                                    </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button class="btn btn-primary boton-verde button" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">¿Ya tienes cuenta? Inicia sesión</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <a class="btn btn-primary boton-verde button" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Agenda aquí</a>
+                          </li>
                         </ul>
                         <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="¿Qué necesita tu mascota?" aria-label="Search">
+                          <input class="form-control me-2 " type="search"  placeholder="¿Qué necesita tu mascota?" aria-label="Search">
                           <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
                       </div>

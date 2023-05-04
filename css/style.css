@@ -10,6 +10,32 @@
   background-color: #bcc8ff;
 }
 
+.boton-rojo {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.boton-verde {
+  background-color: #afce4d;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 .d-block {
   height: 300px;
 }
@@ -40,6 +66,12 @@
 
 .gradiente {
   background-image: linear-gradient(to right, #afce4d, #eaffa5);
+}
+
+.button:hover {
+  background-color: #eaffa5;
+  color: black;
+  cursor: pointer;
 }
 
 .img2 img {

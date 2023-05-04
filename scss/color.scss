@@ -2,3 +2,28 @@
 .a{color: #922b0f;}
 .bg-2{background-color: rgb(238, 255, 238);}
 .bg-3{background-color: #bcc8ff;}
+.boton-rojo {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .boton-verde {
+    background-color:#afce4d ;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+

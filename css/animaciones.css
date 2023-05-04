@@ -2,4 +2,10 @@
   background-image: linear-gradient(to right, #afce4d, #eaffa5);
 }
 
+.button:hover {
+  background-color: #eaffa5;
+  color: black;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=animaciones.css.map */
